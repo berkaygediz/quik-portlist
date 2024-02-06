@@ -3,7 +3,7 @@ import sys
 import subprocess
 from datetime import datetime
 
-subprocess.call('clear', shell=True)
+subprocess.call("clear", shell=True)
 
 print("quik-portlist - v1.0.0")
 remoteServer = input("IP Address / Host: ")
